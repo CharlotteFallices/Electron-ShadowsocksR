@@ -33,7 +33,7 @@
 在发issue前请先在issue中搜索是否有同类issue，如果有请跟帖<br>
 另外发Bug类issue请详细描述你的使用环境，包括但不限于操作系统、软件版本，操作步骤，报错日志等<br>
 欢迎在issues写出你们的经验，这对这个项目非常重要！包括但不限于如何解决错误，如何在不同的操作系统安装软件,依赖设置代理,成功的使用软件的经验<br>
-对于正确的issue，我(@qingshuisiyuan)会收集到项目代码中<br>
+对于正确的issue,我(@qingshuisiyuan)会收集到项目代码中<br>
 
 ## ShadowsocksR跨平台客户端
 
