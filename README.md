@@ -6,7 +6,8 @@
 - 本应用使用`gsetting`设置系统代理，所以有些Linux系统无法使用该功能,请参考[Ubuntu.md](https://github.com/qingshuisiyuan/electron-ssr-backup/blob/master/Ubuntu.md)手动设置系统代理<br>
 - 火狐浏览器请注意在浏览器设置中更改代理方式为使用系统代理或手动设置<br>
 - Chrome浏览器默认使用系统代理<br>
-- 对于macOS10.15.3(Catalina),19D62e及以上的beta版本请使用系统自带代理功能
+- 对于macOS10.15.3(Catalina),**19D62e**及以上的beta版本请使用系统自带代理功能
+- 此版本不支持`Spotlight`(**⌘-Space**)
 
 ## 2019-08-05更新
 更新内容:<br>
@@ -14,15 +15,7 @@
 
 ## 下载
 建议优先使用0.2.6版本
-0.2.6下载地址见[Github release](https://github.com/qingshuisiyuan/electron-ssr-backup/releases),对应的操作系统下载的文件为:
-
-- Windows `electron-ssr-setup-x.x.x.exe`
-- Mac `electron-ssr-x.x.x.dmg`
-- Linux 优先建议下载`electron-ssr-x.x.x.AppImage`，直接双击运行。如果无法使用或者想直接下载自己系统专用包请看下一条
-- Arch或者基于Arch的系统，下载`electron-ssr-x.x.x.pacman`
-- RedHat系列的系统，下载`electron-ssr-x.x.x.rpm`
-- Debian系列的系统，下载`electron-ssr-x.x.x.deb`
-- 其他Linux系统或者通用Linux系统可下载`electron-ssr-x.x.x.tar.gz`
+0.2.6下载地址见[Github release](https://github.com/qingshuisiyuan/electron-ssr-backup/releases)
 
 ## Debian系列安装与配置[Ubuntu.md](https://github.com/qingshuisiyuan/electron-ssr-backup/blob/master/Ubuntu.md)
 
