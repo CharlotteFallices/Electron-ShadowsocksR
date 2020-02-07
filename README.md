@@ -1,5 +1,5 @@
 ## 写在前面
-原作者``@erguotou520``于2019年5月15日删除了并停止开发这个基于ssr-python的GUI,感谢原作者的付出
+原作者`@erguotou520`于2019年5月15日删除了并停止开发这个基于由`@breakwa11`开发的[ssr-python](https://github.com/shadowsocksrr)的GUI
 
 [English](https://github.com/CharlotteFallices/Electron-ShadowsocksR/edit/master/README_EN.md)|[Other Version](https://github.com/shadowsocks/shadowsocks/wiki/Ports-and-Clients)
 
