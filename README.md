@@ -1,7 +1,7 @@
 ## 写在前面
 原作者``@erguotou520``于2019年5月15日删除了并停止开发这个基于ssr-python的GUI,感谢原作者的付出
 
-[English](https://github.com/CharlotteFallices/Electron-ShadowsocksR/edit/master/README_EN.md) [No-GUI Version](https://github.com/shadowsocks/shadowsocks/wiki/Ports-and-Clients)
+[English](https://github.com/CharlotteFallices/Electron-ShadowsocksR/edit/master/README_EN.md) [Other Version](https://github.com/shadowsocks/shadowsocks/wiki/Ports-and-Clients)
 
 ## 注意事项
 - 内置http_proxy,若需要同时使用其它同类代理,请按需进行配置<br>
