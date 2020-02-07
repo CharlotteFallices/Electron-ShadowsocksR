@@ -3,6 +3,13 @@
 
 [English](https://github.com/CharlotteFallices/Electron-ShadowsocksR/edit/master/README_EN.md)|[Other Version](https://github.com/shadowsocks/shadowsocks/wiki/Ports-and-Clients)
 
+## 警告
+> Shadowsocks的最初设计目的只是为了绕过GFW,而不是提供密码学意义的安全,所以ss协议对双方的身份验证仅限于PSK,亦无PFS,也未曾有安全专家公开分析或评估协议及其实现.如果是在监听下想更加安全的上网,基本上Shadowsocks功能不够完善,应该使用[Tor](https://github.com/torproject/tor)及其它隐密性更高的工具.
+
+> ss协议本质上只是设置了密码的专用网络代理协议,不能替代TLS或者VPN,不能用作匿名通信方案,该协议的目标不在于提供完整的通信安全机制,主要是为了协助上网用户在严苛的网络环境中突破封锁,不过,在匿名通信能够被识别或封锁的情况下,也可将Shadowsocks与其他匿名方案配合(如[v2ray](https://github.com/shadowsocks/v2ray-plugin))使用,同时满足突破封锁和匿名的需求.
+
+> 事实上,通过DPI也有可能识别出协议特征,为了确保安全,用户应做好额外的加密和验证措施以免泄露信息,无论使用的服务器来源是否可靠.2017年9月21日,一篇名为The Random Forest based Detection of Shadowsock's Traffic的论文在IEEE发表,该论文介绍了通过RDF算法检测Shadowsocks流量的方法,并被认为可达到大约85％的检测精度,而且,机器学习配合GFW已经实现的深度数据包检测来识别网络流量特征的做法在大多数情况下都是实际可行的.
+
 ## 注意事项
 - 内置http_proxy,若需要同时使用其它同类代理,请按需进行配置<br>
 - 本应用使用`gsetting`设置系统代理，所以有些Linux系统无法使用该功能,手动设置系统代理<br>
